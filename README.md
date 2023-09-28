@@ -62,3 +62,15 @@ Creamos una carpeta llamada `htdocs`, dentro de ella creamos un archivo llamado 
 ![Alt text](https://github.com/cristianmoreiraa/Trabajando_Volumenes/blob/main/img/image-2.png)
 
 
+## 6. Crea otro contenedor llamado `dam_web2` con el mismo y otro puerto, en este caso 9080
+
+- Usaremos los pasos ya hechos anteriormente en el paso **PASO 4**,
+
+        docker run --name dam_web2 -p 9080:80 -v C:\Users\crist\Documents\2DAM\SXE\Trabajando_con_volumenes\htdocs:/usr/local/apache2/htdocs httpd:2.4
+
+## 6.Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
+
+Para comprobar que los dos servidores 'sirven' para la misma pagina simplenmente tendremos que poner en el navegador nuestra ip/localhost con el puerto:
+
+    localhost:9080
+    localhost:8000
