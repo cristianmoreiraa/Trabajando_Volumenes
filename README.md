@@ -74,3 +74,8 @@ Para comprobar que los dos servidores 'sirven' para la misma pagina simplenmente
 
     localhost:9080
     localhost:8000
+
+## 7.Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
+
+
+Primero que nada, abriremos el `index.html` que ya teníamos creado y cambiarmos el texto que se encuentra en el interior.
