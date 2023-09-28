@@ -51,4 +51,14 @@ Si se ha creado de manera correcta nos deberá aparecer:
 
 ![imagen6](https://github.com/cristianmoreiraa/Trabajando_Volumenes/blob/main/img/image.png)
 
+## 5. Realiza un 'hola mundo' en html (usa Code) y comprueba que accedes desde el navegador
+
+![Alt text](https://github.com/cristianmoreiraa/Trabajando_Volumenes/blob/main/img/image-1.png)
+
+
+Creamos una carpeta llamada `htdocs`, dentro de ella creamos un archivo llamado `index.html` y dentro de ese archivo creamos un pequeño **html**:
+
+
+![Alt text](https://github.com/cristianmoreiraa/Trabajando_Volumenes/blob/main/img/image-2.png)
+
 
